@@ -12,14 +12,14 @@ const numDivisible = num => num % 2 === 0 ? true :false
 
 // 4 checking if a number is valid
 const ifValid = (num) => {
-    if(num < 1 || num > 20){
-        for(i=0; i>num.length ; i++){
+    if(num < 1 || num < 20){
+        for(i=0; i>num ; i++){
            return console.log(i + 'invalid')
         }
     }else{
         return 'valid'
     }
-    return num
+   
 }
 console.log(ifValid(40))
 
