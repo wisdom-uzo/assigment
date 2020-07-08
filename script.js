@@ -14,7 +14,7 @@ const numDivisible = num => num % 2 === 0 ? true :false
 const ifValid = (num) => {
     if(num < 1 || num < 20){
         for(i=0; i>num ; i++){
-           return console.log(i + 'invalid')
+           return i + 'invalid'
         }
     }else{
         return 'valid'
